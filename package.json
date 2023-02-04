@@ -1,0 +1,40 @@
+{
+  "name": "ddd-start",
+  "version": "1.0.0",
+  "description": "## Elementos táticos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tsc -- --noEmit && jest",
+    "tsc": "npx tsc",
+    "lint": "eslint . --ext .ts --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.153",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.40",
+    "@types/sequelize": "^4.28.13",
+    "@types/uuid": "^8.3.4",
+    "@types/validator": "^13.7.3",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "jest": "^27.5.1",
+    "sqlite3": "^5.0.8",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.20.1",
+    "sequelize-typescript": "^2.1.3",
+    "uuid": "^8.3.2"
+  }
+}
